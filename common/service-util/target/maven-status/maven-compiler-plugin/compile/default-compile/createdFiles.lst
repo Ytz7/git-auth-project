@@ -1,0 +1,5 @@
+com\atguigu\system\handler\GlobalExceptionHandler.class
+com\atguigu\system\helper\MenuHelper.class
+com\atguigu\system\config\MybatisPlusConfig.class
+com\atguigu\system\execption\GuiguException.class
+com\atguigu\system\config\Knife4jConfig.class
