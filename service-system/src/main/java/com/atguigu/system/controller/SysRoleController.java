@@ -5,6 +5,8 @@ import com.atguigu.model.system.SysRole;
 import com.atguigu.common.result.Result;
 import com.atguigu.model.vo.AssginRoleVo;
 import com.atguigu.model.vo.SysRoleQueryVo;
+import com.atguigu.system.annotation.SystemLog;
+import com.atguigu.system.enums.BusinessType;
 import com.atguigu.system.service.SysRoleService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -65,6 +67,7 @@ public class SysRoleController {
         return Result.ok(sysRole);
     }
 
+    @SystemLog(title = "角色管理", businessType = BusinessType.INSERT)
     @PreAuthorize("hasAuthority('bnt.sysRole.add')")
     @ApiOperation(value = "新增角色")
     @PostMapping
@@ -73,6 +76,7 @@ public class SysRoleController {
         return result ? Result.ok() : Result.fail();
     }
 
+    @SystemLog(title = "角色管理", businessType = BusinessType.UPDATE)
     @PreAuthorize("hasAuthority('bnt.sysRole.update')")
     @ApiOperation(value = "修改角色")
     @PutMapping
@@ -81,6 +85,7 @@ public class SysRoleController {
         return result ? Result.ok() : Result.fail();
     }
 
+    @SystemLog(title = "角色管理", businessType = BusinessType.DELETE)
     @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @ApiOperation(value = "删除角色")
     @DeleteMapping("{id}")
@@ -89,6 +94,7 @@ public class SysRoleController {
         return result ? Result.ok() : Result.fail();
     }
 
+    @SystemLog(title = "角色管理", businessType = BusinessType.DELETE)
     @PreAuthorize("hasAuthority('bnt.sysRole.remove')")
     @ApiOperation(value = "根据id列表删除")
     @DeleteMapping("/batchRemove")
@@ -104,6 +110,7 @@ public class SysRoleController {
         return Result.ok(roleMap);
     }
 
+    @SystemLog(title = "角色管理", businessType = BusinessType.ASSGIN)
     @ApiOperation(value = "根据用户分配角色")
     @PostMapping("/doAssign")
     public Result doAssign(@RequestBody AssginRoleVo assginRoleVo) {

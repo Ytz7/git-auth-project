@@ -9,6 +9,8 @@ public class SysLoginLogQueryVo {
 	@ApiModelProperty(value = "用户账号")
 	private String username;
 
+	private Integer status;
+
 	private String createTimeBegin;
 	private String createTimeEnd;
 

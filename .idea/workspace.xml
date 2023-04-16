@@ -6,6 +6,62 @@
   <component name="ChangeListManager">
     <list default="true" id="36709cbb-1691-4e6b-8367-cc396418d6a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-log/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Constant/SystemConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Constant/SystemConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/helper/JwtHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/helper/JwtHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/Constant/SystemConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/Constant/SystemConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/ResultCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/ResultCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/IpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/IpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/MD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/MD5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/ResponseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/ResponseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/util/WebUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/execption/GuiguException.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/execption/GuiguException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/helper/MenuHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/helper/MenuHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/helper/RouterHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/atguigu/system/helper/RouterHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/custom/CustomMd5PasswordEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/custom/CustomMd5PasswordEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/custom/CustomUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/custom/CustomUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/filter/TokenAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/filter/TokenAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/filter/TokenLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/target/classes/com/atguigu/system/filter/TokenLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysLoginLogQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SysLoginLogQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/base/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/base/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysDept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysLoginLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysLoginLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysOperLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysOperLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRoleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysRoleMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/system/SysUserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/AssginMenuVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/AssginMenuVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/AssginRoleVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/AssginRoleVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/LoginVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/LoginVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/MetaVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/MetaVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/RouterVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/RouterVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysLoginLogQueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysLoginLogQueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysOperLogQueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysOperLogQueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysPostQueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysPostQueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysRoleQueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysRoleQueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysUserQueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/atguigu/model/vo/SysUserQueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysLoginLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysLoginLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysOperLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysOperLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/SysLoginLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/service/SysLoginLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/SysOperLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/SysLoginLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/SysLoginLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/SysOperLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/SysOperLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/controller/SysLoginLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/controller/SysLoginLogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/controller/SysRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/service/SysLoginLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/service/SysOperLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/service/impl/SysLoginLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/atguigu/system/service/impl/SysLoginLogServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +73,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Aspect" />
         <option value="Class" />
       </list>
     </option>
@@ -105,6 +163,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,6 +275,9 @@
       <workItem from="1681533493585" duration="2382000" />
       <workItem from="1681535979817" duration="90000" />
       <workItem from="1681536554915" duration="442000" />
+      <workItem from="1681537311155" duration="125000" />
+      <workItem from="1681537469618" duration="304000" />
+      <workItem from="1681617184159" duration="9638000" />
     </task>
     <servers />
   </component>
@@ -240,64 +312,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/IndexController.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/UserDetailsServiceImpl.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenLoginFilter.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenLoginFilter.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenLoginFilter.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenLoginFilter.java</url>
-          <line>103</line>
+          <line>123</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/custom/CustomMd5PasswordEncoder.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/custom/CustomMd5PasswordEncoder.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysRoleController.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="12" />
+          <line>75</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/common/common-log/src/main/java/com/atguigu/system/aspect/LogAspect.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

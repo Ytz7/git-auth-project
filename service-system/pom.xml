@@ -24,6 +24,12 @@
             <version>1.0</version>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.atguigu</groupId>-->
+<!--            <artifactId>common-log</artifactId>-->
+<!--            <version>1.0</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>com.atguigu</groupId>
             <artifactId>service-util</artifactId>

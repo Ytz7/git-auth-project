@@ -6,6 +6,8 @@ import com.atguigu.common.result.Constant.RedisConstant;
 import com.atguigu.common.result.Result;
 import com.atguigu.common.result.ResultCodeEnum;
 import com.atguigu.common.util.ResponseUtil;
+import com.atguigu.system.service.SysLoginLogService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

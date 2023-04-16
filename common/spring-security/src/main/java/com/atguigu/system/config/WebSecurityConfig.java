@@ -3,6 +3,7 @@ package com.atguigu.system.config;
 import com.atguigu.system.custom.CustomMd5PasswordEncoder;
 import com.atguigu.system.filter.TokenAuthenticationFilter;
 import com.atguigu.system.filter.TokenLoginFilter;
+import com.atguigu.system.service.SysLoginLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,6 +30,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
+
+    @Autowired
+    private SysLoginLogService sysLoginLogService;
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
@@ -58,7 +62,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 //TokenAuthenticationFilter放到UsernamePasswordAuthenticationFilter的前面，这样做就是为了除了登录的时候去查询数据库外，其他时候都用token进行认证。
                 .addFilterBefore(new TokenAuthenticationFilter(stringRedisTemplate), UsernamePasswordAuthenticationFilter.class)
-                .addFilter(new TokenLoginFilter(authenticationManager(), stringRedisTemplate));
+                .addFilter(new TokenLoginFilter(authenticationManager(), stringRedisTemplate, sysLoginLogService));
 
         //禁用session
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
